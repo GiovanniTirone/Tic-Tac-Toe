@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#start_div{
+    margin-bottom: 30px;
+    display : felx;
+    padding :4px;
+}
+
+#game_table{
+    height: 300px;
+    width: 300px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+}
+
+.cell{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    /*font-weight: bold;*/
+}
+
+/*.nPG_Container {
+    display: flex;
+}
+
+.nPG_GameTable {
+    height: 50px;
+    width: 50px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.nPG_Cell {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}*/
